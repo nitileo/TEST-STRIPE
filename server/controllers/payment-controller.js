@@ -1,5 +1,5 @@
 const stripe = require("stripe")(
-    "sk_test_51QHdYyBU681vIFBkAcT7iTHtfb6komW0wJyMrsANqQO2QLZjhrA8dHV3eeRNk8rLdfG7lXjEloRTXiJBRCb0oDk300Z3gJr4Sr"
+    "SECERT_KEY"
   );
   
   exports.payment = async (req, res) => {
